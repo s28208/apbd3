@@ -24,6 +24,7 @@ kontejner2.Load(1.5);
 kontejner4.Load(5);
 //kontejner4.Load(5);
 kontejner4.Unload();
+Console.WriteLine(kontejner4);
 kontejner5.Load(7);
 Statek statek = new Statek(3, 20, 3);
 Statek statek2 = new Statek(2, 10, 10);
