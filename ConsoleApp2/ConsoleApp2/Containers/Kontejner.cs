@@ -49,7 +49,7 @@ public abstract class Kontejner : IKontejner
     public void ReplaceStatek(Statek s1, Statek s2)
     {
         s1.Kontejners.Remove(this);
-        s1.Kontejners.Add(this);
+        s2.Kontejners.Add(this);
         this.StatekStatus = s2;
         Console.WriteLine("Statek "+s1.number+" zostaw zmieniony na "+s2.number+" dla "+this.number);
     }
